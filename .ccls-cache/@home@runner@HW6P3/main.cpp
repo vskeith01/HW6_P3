@@ -18,5 +18,8 @@ double PowerProduced(double H, double Q)
   double g = 9.81;    // m/s
   double p = 1;   // Water density
   double Power;   // Power Produced
+  Power = p * Q * H * g;
+
+  return Power;
   
 }
